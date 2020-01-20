@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Cuadra</string>
+    <string name="usuario">Usuario</string>
+    <string name="password1">Contraseña</string>
+    <string name="botoningresar">Ingresar</string>
+    <string name="contador">00:00</string>
+    <string name="pregunta">Generando pregunta...</string>
+    <string name="pagos">Pagos</string>
+    <string name="cobros">Cobros</string>
+    <string name="reportes">Reportes</string>
+    <string name="salir">Salir</string>
+    <string name="atras">Atrás</string>
+    <string name="continuar">Continuar</string>
+    <string-array name="cuentasxml">
+        <item>Seleccione</item>
+        <item>Cliente Sr. Rios (Cristopher Rios)</item>
+        <item>(Pensiones Gabriel Rios)</item>
+        <item>(Alex Rios)</item>
+    </string-array>
+    <!--para los reportes-->
+    <string name="nro">N°</string>
+    <string name="fecha">Fecha/Hora</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="monto">Monto</string>
+    <string name="tipo">Tipo</string>
+
+</resources>

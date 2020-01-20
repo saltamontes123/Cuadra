@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Movimientos">
+
+    <TableLayout
+        android:layout_width="257dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:text="Registrar movimiento"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuenta:"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/spcuenta"
+                android:layout_width="76dp"
+                android:layout_height="30dp"
+                android:layout_span="3"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto (Bs):" />
+
+            <EditText
+                android:id="@+id/etmonto"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/ibpagos"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/pagos"
+                android:scaleType="fitStart"
+                app:layout_constrainedHeight="false"
+                app:layout_constrainedWidth="false"
+                app:srcCompat="@drawable/account" />
+
+            <ImageButton
+                android:id="@+id/ibcobros"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/cobros"
+                android:scaleType="fitCenter"
+                android:tag="@string/cobros"
+                app:srcCompat="@drawable/gross_profit" />
+
+            <ImageButton
+                android:id="@+id/ibreportes"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/reportes"
+                android:scaleType="fitCenter"
+                android:tag="@string/reportes"
+                app:srcCompat="@drawable/accruals" />
+
+            <ImageButton
+                android:id="@+id/ibsalir"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/salir"
+                android:scaleType="fitCenter"
+                android:tag="@string/salir"
+                app:srcCompat="@drawable/flecha" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pagos"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cobros"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reportes"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salir"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
