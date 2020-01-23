@@ -4,7 +4,8 @@
     <string name="password1">Contraseña</string>
     <string name="botoningresar">Ingresar</string>
     <string name="contador">00:00</string>
-    <string name="pregunta">Generando pregunta...</string>
+    <string name="pregunta">Generando pregunta…</string>
+    <string name="movimiento">Registrar Movimiento</string>
     <string name="pagos">Pagos</string>
     <string name="cobros">Cobros</string>
     <string name="reportes">Reportes</string>
@@ -19,9 +20,14 @@
     </string-array>
     <!--para los reportes-->
     <string name="nro">N°</string>
-    <string name="fecha">Fecha/Hora</string>
+    <string name="fechahora">Fecha/Hora</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="formatofecha">dd/mm/aaaa</string>
+    <string name="formatohora">hh:mm</string>
     <string name="cuenta">Cuenta</string>
     <string name="monto">Monto</string>
+    <string name="glosa">Glosa</string>
     <string name="tipo">Tipo</string>
 
 </resources>
